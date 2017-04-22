@@ -1,4 +1,7 @@
-# test coverage for  [utils-merge (v1.0.0)](https://github.com/jaredhanson/utils-merge#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-utils-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-utils-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-utils-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-utils-merge)
+# npmtest-utils-merge
+
+#### basic test-coverage for  [utils-merge (v1.0.0)](https://github.com/jaredhanson/utils-merge#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-utils-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-utils-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-utils-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-utils-merge)
+
 #### merge() utility function
 
 [![NPM](https://nodei.co/npm/utils-merge.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/utils-merge)
@@ -78,7 +81,8 @@
     "scripts": {
         "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
